@@ -1,0 +1,191 @@
+*{
+    background-color: darkgrey;
+}
+/* * is the whole code selector */
+h1 {
+    color: #07079d;
+    font-size: 40px;
+}
+
+/* To change certain elements, after h/p/video, define class
+<p Class="welcome"> </p> 
+use dot aka . before calling class in CSS*/
+
+.navbar{
+    display: flex;
+    background-color: #2424d5;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+   
+}
+
+.navbar a{
+    color: rgb(255, 204, 0);
+}
+
+.navbar a:hover{
+    color: yellow;
+}
+
+i {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #96230e;
+}
+
+
+
+.durden{
+    text-align: center;
+}
+
+.green {
+    color: lightgreen;
+}
+/* this is how to target a class */
+
+.large {
+    font-size:30px;
+}
+
+/* #chapter2 {
+
+} */
+
+#second {
+    font-size: 20px;
+}
+
+/* Id's should only appear once */
+/* ID is unique, class can be used multiple time. Good for changing certain parts */
+/* used same way as class same set up. Except you use a # when defining in CSS */
+/* e.g #chapter2 */
+
+/* Using ID and class together using <a href="#chapter2">Chapter 2
+
+Must use Flexbox in website. It improves item alignment, directions and order.
+Way of controlling borders. 
+Div is like a container so must use Div for Flexbox.  
+Display: flex;
+flex direction: column/columnreverse/row/rowreverse; */
+
+.blockbustersign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meettheteam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+   color: #2424d5;
+}
+
+.wraptext{
+    align-items: center;
+    align-content: inherit;
+}
+
+p2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: 1;
+    font-size: 15px;
+}
+
+.blockbusterstore{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    flex-direction: row;
+
+}
+
+.blockbusterstore2{
+    display: flex;
+    justify-content: right;
+    text-align: left;
+    flex-direction: row-reverse;
+}
+
+.welcomeblockbusters{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    text-align: left;
+
+}
+
+.textbox{
+    flex-direction: column;
+display: flex;
+justify-content: center;
+
+}
+
+.headers{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.smallprint{
+    font-family: cursive;
+    color: red;
+}
+
+p3 {
+    font-size: 13px;
+}
+
+.slogan{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2424d5;
+}
+
+#FAQ{
+    font-size: small;
+}
+
+.gametitle{
+display: flex;
+justify-content: center;
+
+}
+
+.headersBrowseleft{
+    display: flex;
+    justify-content:left;
+    color: darkviolet;
+   
+    
+    
+    
+    
+}
+
+.headersbrowseright{
+    display: flex;
+    justify-content: right;
+    color: darkviolet;
+}
+
+.textright{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+p5 {
+    font-size: 10px;
+    font-style: italic;
+    font-family: 'Segoe UI';
+    color: black;
+}
